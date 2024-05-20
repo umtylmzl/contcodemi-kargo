@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* DARK MOD CSS BAŞLANGIÇ */
+body.dark {
+  background-color: #222;
+  color: #fff;
+}
+
+.mode-control input {
+  position: absolute;
+  opacity: 0;
+}
+
+.mode-control span:nth-of-type(2) {
+  display: none;
+}
+
+.mode-control input:checked+span {
+  display: none;
+
+}
+
+.mode-control input:checked+span+span {
+  display: inline-block;
+}
+
+.mode-control span {
+  padding: 0 20px;
+  line-height: 30px;
+  border-radius: 30px;
+  background-color: #222;
+  color: #fff;
+}
+
+/* DARK MOD CSS BİTİŞ */
+
+/*-- BAŞLANGIÇ BODY ---------boostrap etkilendiği için id eklendim hocam----------*/
+
+.my-custom-body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #BDC3BF;
+  transition: 300ms all;
+}
+
+navbarh1 {
+  display: inline-block;
+  font-weight: 300;
+}
+
+.links {
+  display: inline-block;
+}
+
+.links li {
+  display: inline-block;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0px 8px;
+}
+
+header {
+  margin: 32px;
+}
+
+header h1 {
+  font-weight: 600;
+  backdrop-filter: initial;
+}
+
+header span {
+  color: black;
+}
+
+.bannerDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  background: linear-gradient(60deg, #dcdcdc 50%, #58618A 50%);
+  opacity: 0.90;
+  border-radius: 25px;
+
+}
+
+.bannericerik .name {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#myTitle {
+  font-size: 39px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  color: #8b7e66;
+  font-weight: 700;
+}
+
+.bannericerik .teslimat {
+  font-size: 30px;
+  margin-bottom: 20px;
+
+}
+
+.bannericerik .kcalisan {
+  font-size: 30px;
+}
+
+.bannericerik span {
+  color: #4d5684;
+}
+
+/* HTML ETKİN DEĞİL */
+.underline {
+  width: 80px;
+  height: 4px;
+
+  margin-bottom: 20px;
+  padding: 5px 5px;
+}
+
+.bannerImg {
+  width: 30%;
+  border: 4px solid white;
+  border-radius: 30px;
+
+}
+
+.bannerPhoto {
+  width: 100%;
+}
+
+.btndarkblue {
+  text-decoration: none;
+  background: #4d5684;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 30px;
+  text-transform: uppercase;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s linear;
+}
+
+.btndarkblue:hover {
+  background: #61A3EE;
+}
+
+.btnkahve {
+  text-decoration: none;
+  background: #7F6154;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 30px;
+  text-transform: uppercase;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s linear;
+}
+
+.btnkahve:hover {
+  background: gray;
+  /* BUTONLAR CSS BİTİŞ */
+}

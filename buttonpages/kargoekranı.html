@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContCodemi | Sipariş Durum</title>
+    <link rel="icon" href="../img/corgo-favicon.png" type="image/x-icon" />
+<link rel="stylesheet" href="../css/kargoekranı.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;1,100;1,200;1,300;1,600&family=Roboto&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+</head>
+<body class="my-custom-body" >
+    <header>
+        <div class="navbarh1">
+            <h1>ContCodemi <span>|</span> Kargo</h1>
+        </div>
+        <nav class="links">
+            <ul>
+                <li><a href="/index.html">İşlerim</a></li>
+                <li><a href="pages/hakkımda.html">Hakkımda</a></li>
+                <li><a href="pages/iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+        <!-- KOYU MOD AÇIK MOD HTML -->
+        <label class="mode-control">
+            <input id="mode-btn" type="checkbox">
+            <span>Koyu Mod</span>
+            <span>Açık Mod</span>
+        </label>
+        <!-- KOYU MOD AÇIK MOD BİTİŞ -->
+
+    </header>
+
+    <section class="banner">
+        <div class="bannerDiv">
+            <div class="bannericerik">
+                <div class="underline"></div>
+                <h2 id="myTitle">Gönderi Sorgu</h2>
+
+                <form>
+                    <fieldset disabled>
+                      <legend style="color: green; font-weight: 500;">Kargo Teslim Edildi!</legend>
+
+                      <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label">Sipariş Bilgi</label>
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="UMUT YILMAZ">
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label">Sipariş No</label>
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="10489622450">
+                      </div>
+                      <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label">Sipariş Tutarı</label>
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="2980,67 TL">
+                      </div>
+                    </fieldset>
+                  </form>
+
+                <a href="../index.html" class="btnkahve">ANASAYFA GİT</a>
+
+            </div>
+            <div class="bannerImg">
+                
+                <img src="../img/teslim-edildi.png" class="bannerPhoto" alt="siparis-takip">
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JAVASCRİPT DOSYA EKLENTİSİ VE HAREKETLİ BAŞLIK VE CANLI DESTEK -->
+    <script src="../js/script.js"></script>
+    <script type="text/javascript">
+
+        var baslik = document.title;
+        var yeniBaslik = "Hoop! Kargonu Unutma :)";
+
+        window.onblur = function () {
+            document.title = yeniBaslik;
+        }
+
+        window.onfocus = function () {
+            document.title = baslik;
+        }
+    </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/66054e35a0c6737bd125e66a/1hq2bj0vh';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

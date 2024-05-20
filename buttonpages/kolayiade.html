@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContCodemi | Sipariş İade!</title>
+    <link rel="icon" href="../img/corgo-favicon.png" type="image/x-icon" />
+<link rel="stylesheet" href="../css/kolayiade.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;1,100;1,200;1,300;1,600&family=Roboto&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+</head>
+<body class="my-custom-body">
+    <header>
+        <div class="navbarh1">
+            <h1>ContCodemi <span>|</span> Kargo</h1>
+        </div>
+        <nav class="links">
+            <ul>
+                <li><a href="/index.html">İşlerim</a></li>
+                <li><a href="pages/hakkımda.html">Hakkımda</a></li>
+                <li><a href="pages/iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+        <!-- KOYU MOD AÇIK MOD HTML -->
+        <label class="mode-control">
+            <input id="mode-btn" type="checkbox">
+            <span>Koyu Mod</span>
+            <span>Açık Mod</span>
+        </label>
+        <!-- KOYU MOD AÇIK MOD BİTİŞ -->
+
+    </header>
+
+    <section class="banner">
+        <div class="bannerDiv">
+            <div class="bannericerik">
+                <div class="underline"></div>
+                <h2 id="myTitle">Kargo İade İşlemi</h2>
+
+
+                <label for="exampleDataList" class="form-label">Ürün İade Numaranızı Giriniz.</label>
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="İade Numarası Giriniz" minlength="11" maxlength="11">
+                <datalist id="datalistOptions">Takip Numarası Giriniz
+                  <option value="10489622450">
+                  <option value="10289001425">
+                  <option value="10697532256">
+                  <option value="10287964237">
+                  <option value="10674300552">
+                </datalist>
+
+                <label for="exampleDataList" class="form-label">İade Nedeni</label>
+                <select class="form-select" aria-label="İade Nedeni Seç">
+                    <option selected>İade Nedeni Seç</option>
+                    <option value="1">Vazgeçtim</option>
+                    <option value="2">Beğenmedim</option>
+                    <option value="3">Yanlış sipariş verdim</option>
+                    <option value="4">Daha iyi bir fiyat mevcut</option>
+                    <option value="5">Kusurlu ürün gönderildi</option>
+                    <option value="6">Yanlış ürün gönderildi</option>
+                    <option value="7">Ürünümün parçası/aksesuarı eksik gönderildi</option>
+                </select>
+
+              
+
+
+
+                
+                <label for="exampleDataList" class="form-label">Kargo Firması Seç</label>
+                <select class="form-select" aria-label="Kargo Firması Seç">
+                    <option selected>Kargo Firması Seç</option>
+                    <option value="1">MNG Kargo (Boş)</option>
+                    <option value="2">ARAS Kargo (Boş)</option>
+                    <option value="3">UPS Kargo (Boş)</option>
+                    <option value="4">Sürat Kargo (+5)</option>
+                    <option value="5">Vatan Kargo (+11)</option>
+                </select>
+
+                <a href="../buttonpages/iadeekranı.html" class="btnkahve">DEVAM ET</a>
+            </div>
+            
+            <div class="bannerImg">
+                <img src="../img/kolayiade.png" class="bannerPhoto" alt="kolay-iade">
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JAVASCRİPT DOSYA EKLENTİSİ VE HAREKETLİ BAŞLIK VE CANLI DESTEK -->
+    <script src="../js/script.js"></script>
+    <script type="text/javascript">
+
+        var baslik = document.title;
+        var yeniBaslik = "Hoop! Kargonu Unutma :)";
+
+        window.onblur = function () {
+            document.title = yeniBaslik;
+        }
+
+        window.onfocus = function () {
+            document.title = baslik;
+        }
+    </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/66054e35a0c6737bd125e66a/1hq2bj0vh';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
